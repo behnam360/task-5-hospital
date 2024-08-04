@@ -6,6 +6,7 @@ import "./component/style/style.css";
 import Carousel from "./component/Carousel/Carousel.jsx";
 import Nestedpanel from "./component/Nested panel/Nested panel.jsx";
 import CustomFooter from "./component/footer/footer.jsx";
+import Card from "./component/card/card.jsx";
 
 const { Header } = Layout;
 
@@ -77,6 +78,9 @@ const App = () => {
       </section>
       <section style={{ width: "70%", margin: "0 auto", marginTop: "10px" }}>
         <Nestedpanel />
+      </section>
+      <section>
+        <Card />
       </section>
       <section>
         <CustomFooter />
